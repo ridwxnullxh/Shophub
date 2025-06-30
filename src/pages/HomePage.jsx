@@ -9,7 +9,7 @@ import {
 } from "../components/Skeleton";
 
 const HeroSection = () => (
-  <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-primary-600 to-accent-600 dark:from-primary-700 dark:to-accent-700">
+  <div className="relative overflow-hidden rounded-2xl mt-12 bg-gradient-to-r from-primary-600 to-accent-600 dark:from-primary-700 dark:to-accent-700">
     <div className="absolute inset-0 bg-grid-white/30 [mask-image:linear-gradient(0deg,rgba(255,255,255,0.1),rgba(255,255,255,0.5))] dark:bg-grid-white/20" />
     <div className="relative px-6 py-16 sm:px-8 sm:py-24 lg:py-32 lg:px-12">
       <div className="max-w-2xl">
